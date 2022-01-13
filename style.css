@@ -1,0 +1,87 @@
+body {
+    margin-top: 10%;
+    margin-left: 30%;
+    margin-right: 30%;
+    font-family: 'Lobster', cursive;
+}
+
+.app {
+    text-align: center;
+    background-color: rgb(255, 251, 0);
+}
+
+.title {
+    margin: 0%;
+    font-size: 30px;
+}
+
+.form-input {
+    margin: 10px;
+    width: 50%;
+    height: 20px;
+}
+
+.form-input {
+    border-color: blueviolet;
+}
+
+.form-buttom {
+    height: 30px;
+    font-size: 110%;
+    font-family: 'Lobster', cursive;
+    transition: 0.3s;
+}
+
+.list {
+    margin: 0%;
+    padding: 1% 5% 1% 5%;
+}
+
+.list-tarefa {
+    list-style: none;
+    background-color: rgba(189, 186, 17, 0.842) ;
+    padding: 2%;
+}
+
+.tarefa {
+    text-align: left;
+    display: inline;
+    transition: 0.3s;
+}
+
+
+
+.buttom-concluir:hover, .buttom-deletar:hover, .form-buttom:hover {
+    background-color: slateblue;
+    font-size: 90%;
+}
+
+.buttom-deletar {
+    margin: 2px 20px 2px 20px;
+    font-family: 'Lobster', cursive;
+    transition: 0.3s;
+}
+
+.buttom-concluir {
+    margin: 2px 20px 2px 20px;
+    font-family: 'Lobster', cursive;
+    transition: 0.3s;
+}
+
+.tarefa-concluida {
+    color: rgb(238, 11, 11);
+    text-decoration: line-through;
+}
+/*
+.list-tarefa {
+    background-color: rgba(189, 186, 17, 0.842);
+    color: rgb(133, 13, 180);
+}
+
+.list-tarefa {
+    height: 30px;
+    margin: 0 0 1% ;
+    padding: 0%;
+    font-size: 20px;
+}
+*/
